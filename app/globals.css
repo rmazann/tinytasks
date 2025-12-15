@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-grey-7: #111111;
+  --color-grey-33: #555555;
+  --color-grey-60: #999999;
+  --color-grey-90: #e5e5e5;
+  --color-grey-95: #f2f2f2;
+  --color-white: #ffffff;
+  --color-black-0: #000000;
+}
+
+body {
+  color: var(--color-grey-7);
+  background: var(--color-white);
+}
+
